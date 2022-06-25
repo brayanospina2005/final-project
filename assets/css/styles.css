@@ -520,7 +520,6 @@ body {
 
 
 .container-norway {
-  background: url("");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -575,3 +574,26 @@ body {
 .container-norway .container__profile p b {
   font-style: italic;
 }
+
+#norway-card1{
+  background: url("https://as2.ftcdn.net/v2/jpg/05/09/97/93/1000_F_509979374_7lmaJBC0baePnEdUMsG4FPGK4LffFmn5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#norway-card2{
+  background: url("https://as2.ftcdn.net/v2/jpg/02/66/47/87/1000_F_266478779_PyemBU8X8SjGHJxm41R4J7I3LHRlzbmE.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#norway-card3{
+  background: url("https://as2.ftcdn.net/v2/jpg/03/41/11/83/1000_F_341118354_F8TwZtksjhZ7bVkQR55SmWIVqDZ3895E.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
