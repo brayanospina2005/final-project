@@ -790,6 +790,106 @@ body {
   }
 }
 
+
+/* start footer */
+footer{
+  background-color: #252222;
+  border-radius: 20px;
+}
+.container-footer{
+  background-color: #252222;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px 20px 50px 20px;
+  border-radius: 20px;
+}
+
+.container-footer .info{
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 50px;
+  text-align: justify;
+}
+footer .autor{
+  color: #bfbdbd;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+.icons {
+  display: flex;
+  column-gap: 25px;
+  margin-top: 40px;
+}
+
+.icon1 {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  color: #fff;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+}
+
+.icon1:hover {
+  outline-offset: 4px;
+}
+
+.icon1:hover i {
+  animation: shake .25s;
+}
+
+.icon--instagram:hover {
+  background-image: radial-gradient(circle at 30% 107%,
+          #fdf497 0%, #fdf497 5%,
+          #fd5949 45%, #d6249f 60%,
+          #285AEB 90%);
+  outline-color: #a02d76;
+}
+
+.icon--twitter:hover {
+  background-color: #1da1f2;
+  outline-color: #1da1f2;
+}
+
+.icon--linkedin:hover {
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+
+.icon--github:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+@keyframes shake {
+  10% {
+      transform: rotate(15deg);
+  }
+
+  20% {
+      transform: rotate(-15deg);
+  }
+
+  30% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-15deg);
+  }
+}
+
+
 /* media queries */
 @media screen and (min-width: 300px) and (max-width: 500px) {
   body {
@@ -842,6 +942,9 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width: 400px) {
+  .icons{
+    column-gap: 10px;
+  }
   .container-secondsection{
     display: flex;
     flex-wrap: wrap;
@@ -898,8 +1001,15 @@ body {
  }
 
 }
-@media screen and (min-width: 401px) and (max-width: 820px) {
+@media screen and (min-width: 200px) and (max-width: 701px) {
+  .container-footer{
+    flex-wrap: wrap;
+  }
+  .container-footer .info{
+    margin-right: 0%;
+    text-align: center;
+  }
+  
 
  
 }
-
