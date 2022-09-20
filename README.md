@@ -1,3 +1,3 @@
 # final-project
-proyecto poliandino
+proyecto personal (hobbie)
 https://brayancountries.netlify.app/
